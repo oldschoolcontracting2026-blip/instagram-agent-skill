@@ -263,6 +263,20 @@ skills/ig-profile/rubric.json      the 100-point profile score
 templates/voice.md                 your voice profile. Fill this in first.
 ```
 
+## Old School Contracting fork
+
+This fork is set up for Old School Contracting LLC, an excavation business in
+Chattanooga, TN. [`osc/voice.md`](osc/voice.md) is OSC's voice profile: who the
+audience is (homeowners, builders, restoration companies), how the owner
+sounds, what is off limits, a safety-on-camera checklist, and the `ESTIMATE`
+keyword CTA. `/ig-reel` and `/ig-plan` read it when no personal `voice.md`
+exists. Items in `{{double braces}}` are questions for the owner, and the skills
+leave them blank rather than invent an answer. Everything else is unchanged
+from upstream.
+
+PostZen is currently connected to OSC's Facebook page and TikTok. Instagram
+publishing starts once that account is connected.
+
 ## Credits
 
 This pack is a fork of Jake Schincariol’s [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill), licensed under MIT.

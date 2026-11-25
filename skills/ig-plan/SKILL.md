@@ -16,7 +16,8 @@ executed. Run it once a week, on the same day.
 
 If `~/.instagram-agent/voice.md`, `swipe.md` and `log.md` exist, read them.
 Older installs kept these in `~/.claude/instagram/`; read from there if the
-new folder is missing.
+new folder is missing. If there is no `voice.md` anywhere and this pack's
+`osc/voice.md` is present (the Old School Contracting fork), read that.
 The swipe file is the user's own evidence from `/ig-viral` about which formulas
 are landing in their niche right now, and it outranks anything in this file.
 The log stops the plan repeating a theme from the last fortnight.
