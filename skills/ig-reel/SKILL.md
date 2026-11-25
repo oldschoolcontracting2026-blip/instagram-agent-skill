@@ -26,6 +26,8 @@ python3 beats.py script.txt --target 30     # timed beat sheet before you shoot
 
 1. Read `~/.instagram-agent/voice.md` if it exists. Older installs kept it in
    `~/.claude/instagram/`; read it from there if the new folder is missing.
+   If neither exists and this pack's `osc/voice.md` is present (the Old School
+   Contracting fork), read that instead.
    That is the user's voice profile: how they talk on camera, what they never
    say, who they are talking to. If it does not exist, ask for **three of their
    own reels**, transcribe or read them, infer the voice, and write the file. A
